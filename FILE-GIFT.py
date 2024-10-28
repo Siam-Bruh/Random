@@ -793,9 +793,18 @@ def __GMAILX__(username,pswrd,total):
         pass
 #————————————————{ Approval }—————————————#
      def apvdef():
-         a=str(os:geteuid())
-	 b=str(os:getlogin())
-	 key="SiamBhau".join(a+b)
-	 row=httpx.get
+         a=str(os:geteuid())
+b=str(os:getlogin())
+key="SiamBhau".join(a+b)
+row=httpx.get("https://raw.githubusercontent.com/Siam-Bruh/Random/refs/heads/main/Bhau.txt").text
+if key in row:
+     main()
+else:
+      os.system("clear")
+print (logo) 
+print ("your key is not approved")
+print ("your key"+key)
+sys.exite
+apvdef()
 #──────────────{ END }──────────────#
 menu()
