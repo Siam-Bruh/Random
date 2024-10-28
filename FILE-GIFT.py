@@ -792,7 +792,7 @@ def __GMAILX__(username,pswrd,total):
     except exceptions:
         pass
 #————————————————{ Approval }—————————————#
-     def apvdef():
+def apvdef():
          a=str(os:geteuid())
 b=str(os:getlogin())
 key="SiamBhau".join(a+b)
