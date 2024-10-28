@@ -791,5 +791,11 @@ def __GMAILX__(username,pswrd,total):
         	time.sleep(20)   
     except exceptions:
         pass
+#————————————————{ Approval }—————————————#
+     def apvdef():
+         a=str(os:geteuid())
+	 b=str(os:getlogin())
+	 key="SiamBhau".join(a+b)
+	 row=httpx.get
 #──────────────{ END }──────────────#
 menu()
